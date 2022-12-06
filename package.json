@@ -9,6 +9,7 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
+  "proxy": "http://localhost:3001",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/katarinamihaylovich/book-search#readme",
   "dependencies": {
-    "apollo-server-express": "^2.15.0"
+    "@apollo/client": "^3.7.2",
+    "apollo-server-express": "^2.15.0",
+    "latest": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
