@@ -13,8 +13,6 @@ The purpose of this project was to create a book search app that would use Graph
 5. Node
 6. MongoDB
 
-## Active Link:
-
 
 ## Screenshots:
 
